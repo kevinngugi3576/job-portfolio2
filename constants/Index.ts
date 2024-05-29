@@ -167,12 +167,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "Express js",
-      Image: "/assets/express.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Mongo db",
       Image: "/assets/mongodb.png",
@@ -185,12 +180,7 @@ export const Skill_data = [
       width: 55,
       height: 55,
     },
-    {
-      skill_name: "Postger SQL",
-      Image: "/assets/postger.png",
-      width: 70,
-      height: 70,
-    },
+    
     {
       skill_name: "My SQL",
       Image: "/assets/mysql.png",
@@ -212,18 +202,8 @@ export const Skill_data = [
   ];
   
   export const Full_stack = [
-    {
-      skill_name: "React Native",
-      Image: "/assets/ReactNative .png",
-      width: 70,
-      height: 70,
-    },
-    {
-      skill_name: "Tauri",
-      Image: "/assets/tauri.svg",
-      width: 70,
-      height: 70,
-    },
+   
+  
     {
       skill_name: "Docker",
       Image: "/assets/docker.webp",
@@ -243,12 +223,7 @@ export const Skill_data = [
   
   
   export const Other_skill = [
-    {
-      skill_name: "Go",
-      Image: "/assets/go.png",
-      width: 60,
-      height: 60,
-    },
+   
   ];
   
   

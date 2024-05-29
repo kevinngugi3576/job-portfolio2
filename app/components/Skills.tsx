@@ -3,7 +3,7 @@ import {
   Frontend_skill,
   Full_stack,
   Other_skill,
-} from "@/constants";
+} from "@/constants/Index";
 import React from "react";
 import SkillsDataProvider from "./sub/SkillsDataProvider";
 import SkillText from "./sub/SkillText";

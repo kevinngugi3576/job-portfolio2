@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import NavLogo from "@/public/assets/NavLogo.png";
-import { Socials } from "@/constants";
+import { Socials } from "@/constants/Index";
 
 
 const Navbar = () => {
