@@ -3,7 +3,7 @@ import ProjectsCard from "./sub/ProjectsCard";
 
 const Projects = () => {
   return (
-    <div className=" flex flex-col items-center justify-center gap-8  py-20">
+    <div  id="projects" className=" flex flex-col items-center justify-center gap-8  py-20">
       <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My projects
       </h1>

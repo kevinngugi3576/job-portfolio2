@@ -6,7 +6,7 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Css",
+      skill_name: "css",
       Image: "/assets/css.png",
       width: 80,
       height: 80,
@@ -18,7 +18,7 @@ export const Skill_data = [
       height: 65,
     },
     {
-      skill_name: "Tailwind Css",
+      skill_name: "Tailwind css",
       Image: "/assets/tailwind.png",
       width: 80,
       height: 80,
@@ -88,11 +88,16 @@ export const Skill_data = [
     {
       name: "Facebook",
       src: "/assets/facebook.svg",
+
     },
     {
       name: "Instagram",
       src: "/assets/instagram.svg",
     },
+    {
+      name : "gmail",
+      src : "/assets/gmail.svg",
+    }
   ];
   
   
@@ -105,7 +110,7 @@ export const Skill_data = [
       height: 80,
     },
     {
-      skill_name: "Css",
+      skill_name: "css",
       Image: "/assets/css.png",
       width: 80,
       height: 80,
@@ -117,7 +122,7 @@ export const Skill_data = [
       height: 65,
     },
     {
-      skill_name: "Tailwind Css",
+      skill_name: "Tailwind css",
       Image: "/assets/tailwind.png",
       width: 80,
       height: 80,

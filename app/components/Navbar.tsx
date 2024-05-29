@@ -1,11 +1,10 @@
-"use client"
+"use client";
 
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import NavLogo from "@/public/assets/NavLogo.png";
 import { Socials } from "@/constants/Index";
-
 
 const Navbar = () => {
   return (
@@ -32,23 +31,29 @@ const Navbar = () => {
             <Link href="#about me" className="cursor-pointer">
               About Me
             </Link>
-            <Link href="#about me" className="cursor-pointer">
+            <Link href="#skills" className="cursor-pointer">
               skills
             </Link>{" "}
-            <Link href="#about me" className="cursor-pointer">
+            <Link href="#projects" className="cursor-pointer">
               Projects
             </Link>
           </div>
         </div>
         <div className="flex flex-wrap gap-5">
-          {Socials.map((social:any) => (
-            <Image
-              src={social.src}
-              alt={social.name}
-              key={social.name}
-              width={24}
-              height={24}
-            />
+          {Socials.map((social: any) => (
+            <Link
+              href={
+                social.name === "gmail" ? "mailto:kevinngugi197@gmail.com" : ""
+              }
+            >
+              <Image
+                src={social.src}
+                alt={social.name}
+                key={social.name}
+                width={24}
+                height={24}
+              />
+            </Link>
           ))}
         </div>
       </div>

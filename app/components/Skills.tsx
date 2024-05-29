@@ -7,7 +7,6 @@ import {
 import React from "react";
 import SkillsDataProvider from "./sub/SkillsDataProvider";
 import SkillText from "./sub/SkillText";
-import Encryption from "./Encryption";
 
 const Skills = () => {
   return (

@@ -8,7 +8,10 @@ import { slideInFromRight } from "@/utils/motion";
 import Image from "next/image";
 import mainIcons from "@/public/assets/mainIcons.svg";
 
+
+
 const HeroContent = () => {
+
   return (
     <motion.div
       initial="hidden"
@@ -49,9 +52,9 @@ const HeroContent = () => {
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
-          className=" button-primary py-3 text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className=" button-primary p-[9px] text-center text-white cursor-pointer rounded-lg max-w-[500px]"
         >
-          Learn More!
+         <p>Email me @ : <span className="font-bold text-xl">kevinngugi197@gmail.com </span></p>
         </motion.a>
       </div>
       <motion.div
