@@ -34,36 +34,38 @@ const Navbar = () => {
           </span>
         </div>
 
-        <div className="hidden lg:flex flex-row items-center justify-between md:mr-20 space-x-4">
+        <div className="flex-row items-center justify-between hidden space-x-4 lg:flex md:mr-20">
           <Link
             href="#about me"
-            className="cursor-pointer hover:-translate-y-3 delay-150 font-bold text-white text-2xl"
+            className="text-2xl font-bold text-white delay-150 cursor-pointer hover:-translate-y-3"
             onClick={handleClick}
           >
             About Me
           </Link>
           <Link
             href="#skills"
-            className="cursor-pointer hover:-translate-y-3 delay-150 font-bold text-white text-2xl"
+            className="text-2xl font-bold text-white delay-150 cursor-pointer hover:-translate-y-3"
             onClick={handleClick}
           >
             Skills
           </Link>
           <Link
             href="#projects"
-            className="cursor-pointer hover:-translate-y-3 delay-150 font-bold text-white text-2xl"
+            className="text-2xl font-bold text-white delay-150 cursor-pointer hover:-translate-y-3"
             onClick={handleClick}
           >
             Projects
           </Link>
         </div>
 
-        <div className="hidden lg:flex space-x-3">
+        <div className="hidden space-x-3 lg:flex">
           {Socials.map((social: any) => (
             <Link
               key={social.name}
               href={
-                social.name === "gmail" ? "mailto:kevinngugi197@gmail.com" : ""
+                social.name === "gmail"
+                  ? "mailto:kevinngugi197@gmail.com"
+                  : "mailto:kevinngugi197@gmail.com"
               }
             >
               <Image
@@ -87,33 +89,33 @@ const Navbar = () => {
         <div className=" inset-0 bg-[#030014] bg-opacity-95  flex flex-col items-center justify-center lg:hidden h-screen">
           <Link
             href="#about me"
-            className="cursor-pointer hover:-translate-y-3 delay-150 font-bold text-3xl text-white mb-4"
+            className="mb-4 text-3xl font-bold text-white delay-150 cursor-pointer hover:-translate-y-3"
             onClick={handleClick}
           >
             About Me
           </Link>
           <Link
             href="#skills"
-            className="cursor-pointer hover:-translate-y-3 delay-150 font-bold text-3xl text-white mb-4"
+            className="mb-4 text-3xl font-bold text-white delay-150 cursor-pointer hover:-translate-y-3"
             onClick={handleClick}
           >
             Skills
           </Link>
           <Link
             href="#projects"
-            className="cursor-pointer hover:-translate-y-3 delay-150 font-bold text-3xl text-white mb-4"
+            className="mb-4 text-3xl font-bold text-white delay-150 cursor-pointer hover:-translate-y-3"
             onClick={handleClick}
           >
             Projects
           </Link>
-          <div className="flex space-x-4 mt-8">
+          <div className="flex mt-8 space-x-4">
             {Socials.map((social: any) => (
               <Link
                 key={social.name}
                 href={
                   social.name === "gmail"
                     ? "mailto:kevinngugi197@gmail.com"
-                    : ""
+                    : "mailto:kevinngugi197@gmail.com"
                 }
                 onClick={handleClick}
               >

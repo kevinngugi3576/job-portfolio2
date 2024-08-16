@@ -7,7 +7,7 @@ const Projects = () => {
       <h1 className="py-20 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
         My projects
       </h1>
-      <div className="flex flex-row items-center gap-8 px-20 py-20 flex-nowrap md:flex-row sm:flex-col sm:size:64">
+      <div className="flex flex-col items-center gap-8 px-20 py-20 lg:flex lg:flex-row ">
         <ProjectsCard
           src="/assets/portfolioPic.png"
           title="Modern Three.js Portfolio"
